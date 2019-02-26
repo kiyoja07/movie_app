@@ -23,5 +23,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "homepage": "http://kiyoja07.github.io/movie_app",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
