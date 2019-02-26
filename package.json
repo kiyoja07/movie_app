@@ -13,7 +13,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -24,7 +26,7 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "http://kiyoja07.github.io/movie_app",
+  "homepage": "https://github.com/kiyoja07/movie_app",
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
